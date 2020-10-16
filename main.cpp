@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <Game.h>
+#include "Game.h"
 
 using namespace std;
 
@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
     char* configurationFile = argv[1];
 
     Game game = Game(configurationFile);
-    game.init();
+    /*game.init();
     Game initializedGame = game;
     game.play();
 
@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
     initializedGame.printState();
     cout<<"----------"<<endl;
     cout<<"Final State:"<<endl;
-    game.printState();
+    game.printState();*/
     return 0;
 }
 

@@ -2,6 +2,7 @@
 #define GAME_H_
 
 #include <iostream>
+#include <vector>
 
 #include "Player.h"
 #include "Deck.h"
@@ -19,6 +20,8 @@ public:
     void printState();        //Print the state of the game as described in the assignment.
     void printWinner();       //Print the winner of the game as describe in the assignment.
     void printNumberOfTurns(); //Print the number of played turns at any given time.
+
+    void ParseInputFile(vector<string>& input_vec, char* configurationFile);
 };
 
 #endif

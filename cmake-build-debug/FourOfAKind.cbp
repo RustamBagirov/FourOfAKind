@@ -82,10 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/rusba/CLionProjects/FourOfAKind/Card.cpp">
+			<Option target="FourOfAKind"/>
+		</Unit>
 		<Unit filename="C:/Users/rusba/CLionProjects/FourOfAKind/Card.h">
 			<Option target="FourOfAKind"/>
 		</Unit>
 		<Unit filename="C:/Users/rusba/CLionProjects/FourOfAKind/Deck.h">
+			<Option target="FourOfAKind"/>
+		</Unit>
+		<Unit filename="C:/Users/rusba/CLionProjects/FourOfAKind/Game.cpp">
 			<Option target="FourOfAKind"/>
 		</Unit>
 		<Unit filename="C:/Users/rusba/CLionProjects/FourOfAKind/Game.h">
