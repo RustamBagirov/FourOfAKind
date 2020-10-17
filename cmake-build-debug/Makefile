@@ -169,6 +169,60 @@ Card.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/Card.cpp.s
 .PHONY : Card.cpp.s
 
+Deck.obj: Deck.cpp.obj
+
+.PHONY : Deck.obj
+
+# target to build an object file
+Deck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/Deck.cpp.obj
+.PHONY : Deck.cpp.obj
+
+Deck.i: Deck.cpp.i
+
+.PHONY : Deck.i
+
+# target to preprocess a source file
+Deck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/Deck.cpp.i
+.PHONY : Deck.cpp.i
+
+Deck.s: Deck.cpp.s
+
+.PHONY : Deck.s
+
+# target to generate assembly for a file
+Deck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/Deck.cpp.s
+.PHONY : Deck.cpp.s
+
+FigureCard.obj: FigureCard.cpp.obj
+
+.PHONY : FigureCard.obj
+
+# target to build an object file
+FigureCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/FigureCard.cpp.obj
+.PHONY : FigureCard.cpp.obj
+
+FigureCard.i: FigureCard.cpp.i
+
+.PHONY : FigureCard.i
+
+# target to preprocess a source file
+FigureCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/FigureCard.cpp.i
+.PHONY : FigureCard.cpp.i
+
+FigureCard.s: FigureCard.cpp.s
+
+.PHONY : FigureCard.s
+
+# target to generate assembly for a file
+FigureCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/FigureCard.cpp.s
+.PHONY : FigureCard.cpp.s
+
 Game.obj: Game.cpp.obj
 
 .PHONY : Game.obj
@@ -195,6 +249,33 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+NumericCard.obj: NumericCard.cpp.obj
+
+.PHONY : NumericCard.obj
+
+# target to build an object file
+NumericCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/NumericCard.cpp.obj
+.PHONY : NumericCard.cpp.obj
+
+NumericCard.i: NumericCard.cpp.i
+
+.PHONY : NumericCard.i
+
+# target to preprocess a source file
+NumericCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/NumericCard.cpp.i
+.PHONY : NumericCard.cpp.i
+
+NumericCard.s: NumericCard.cpp.s
+
+.PHONY : NumericCard.s
+
+# target to generate assembly for a file
+NumericCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FourOfAKind.dir\build.make CMakeFiles/FourOfAKind.dir/NumericCard.cpp.s
+.PHONY : NumericCard.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -235,9 +316,18 @@ help:
 	@echo ... Card.obj
 	@echo ... Card.i
 	@echo ... Card.s
+	@echo ... Deck.obj
+	@echo ... Deck.i
+	@echo ... Deck.s
+	@echo ... FigureCard.obj
+	@echo ... FigureCard.i
+	@echo ... FigureCard.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... NumericCard.obj
+	@echo ... NumericCard.i
+	@echo ... NumericCard.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

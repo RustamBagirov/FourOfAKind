@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FourOfAKind.dir/Card.cpp.obj"
+  "CMakeFiles/FourOfAKind.dir/Deck.cpp.obj"
+  "CMakeFiles/FourOfAKind.dir/FigureCard.cpp.obj"
   "CMakeFiles/FourOfAKind.dir/Game.cpp.obj"
+  "CMakeFiles/FourOfAKind.dir/NumericCard.cpp.obj"
   "CMakeFiles/FourOfAKind.dir/main.cpp.obj"
   "FourOfAKind.exe"
   "FourOfAKind.exe.manifest"

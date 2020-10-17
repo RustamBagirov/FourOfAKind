@@ -6,4 +6,19 @@
 #include "Card.h"
 
 Card::~Card() noexcept {}
-string Card::toString() {}
+void Card::setShape(char shape) {
+    switch(shape){
+        case 'C':
+            this->shape= Club;
+            break;
+        case 'D':
+            this->shape= Diamond;
+            break;
+        case 'H':
+            this->shape= Heart;
+            break;
+        case 'S':
+            this->shape= Spade;
+            break;
+    }
+}

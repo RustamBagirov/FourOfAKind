@@ -6,17 +6,9 @@
 #include "Deck.h"
 #include "Game.h"
 
-Game::Game(char *configurationFile) {
-    vector<string> vec;
-    ParseInputFile(vec,configurationFile);
-
-    for(string x : vec) {
-        cout << "-----------------" << endl;
-        cout << x << endl;
-    }
-
+Game::Game(char *configurationFile) : deck(), players() {
+    ParseInputFile(initVec,configurationFile);
 }
-
 
 void Game::ParseInputFile(vector<string> &input_vec,char *configurationFile) {
     ifstream readFromFile;
@@ -40,4 +32,14 @@ void Game::ParseInputFile(vector<string> &input_vec,char *configurationFile) {
 
     }
     readFromFile.close();
+}
+
+void Game::init() {
+    deck.init(initVec[2]);
+    cout << "deck toString() - " << endl;
+    cout << deck.toString() << endl;
+}
+
+Shape Card::getShape() {
+    return shape;
 }

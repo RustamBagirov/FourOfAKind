@@ -115,11 +115,53 @@ CMakeFiles/FourOfAKind.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FourOfAKind.dir/Game.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rusba\CLionProjects\FourOfAKind\Game.cpp -o CMakeFiles\FourOfAKind.dir\Game.cpp.s
 
+CMakeFiles/FourOfAKind.dir/FigureCard.cpp.obj: CMakeFiles/FourOfAKind.dir/flags.make
+CMakeFiles/FourOfAKind.dir/FigureCard.cpp.obj: ../FigureCard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rusba\CLionProjects\FourOfAKind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FourOfAKind.dir/FigureCard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FourOfAKind.dir\FigureCard.cpp.obj -c C:\Users\rusba\CLionProjects\FourOfAKind\FigureCard.cpp
+
+CMakeFiles/FourOfAKind.dir/FigureCard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FourOfAKind.dir/FigureCard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rusba\CLionProjects\FourOfAKind\FigureCard.cpp > CMakeFiles\FourOfAKind.dir\FigureCard.cpp.i
+
+CMakeFiles/FourOfAKind.dir/FigureCard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FourOfAKind.dir/FigureCard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rusba\CLionProjects\FourOfAKind\FigureCard.cpp -o CMakeFiles\FourOfAKind.dir\FigureCard.cpp.s
+
+CMakeFiles/FourOfAKind.dir/NumericCard.cpp.obj: CMakeFiles/FourOfAKind.dir/flags.make
+CMakeFiles/FourOfAKind.dir/NumericCard.cpp.obj: ../NumericCard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rusba\CLionProjects\FourOfAKind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FourOfAKind.dir/NumericCard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FourOfAKind.dir\NumericCard.cpp.obj -c C:\Users\rusba\CLionProjects\FourOfAKind\NumericCard.cpp
+
+CMakeFiles/FourOfAKind.dir/NumericCard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FourOfAKind.dir/NumericCard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rusba\CLionProjects\FourOfAKind\NumericCard.cpp > CMakeFiles\FourOfAKind.dir\NumericCard.cpp.i
+
+CMakeFiles/FourOfAKind.dir/NumericCard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FourOfAKind.dir/NumericCard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rusba\CLionProjects\FourOfAKind\NumericCard.cpp -o CMakeFiles\FourOfAKind.dir\NumericCard.cpp.s
+
+CMakeFiles/FourOfAKind.dir/Deck.cpp.obj: CMakeFiles/FourOfAKind.dir/flags.make
+CMakeFiles/FourOfAKind.dir/Deck.cpp.obj: ../Deck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rusba\CLionProjects\FourOfAKind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FourOfAKind.dir/Deck.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FourOfAKind.dir\Deck.cpp.obj -c C:\Users\rusba\CLionProjects\FourOfAKind\Deck.cpp
+
+CMakeFiles/FourOfAKind.dir/Deck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FourOfAKind.dir/Deck.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rusba\CLionProjects\FourOfAKind\Deck.cpp > CMakeFiles\FourOfAKind.dir\Deck.cpp.i
+
+CMakeFiles/FourOfAKind.dir/Deck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FourOfAKind.dir/Deck.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rusba\CLionProjects\FourOfAKind\Deck.cpp -o CMakeFiles\FourOfAKind.dir\Deck.cpp.s
+
 # Object files for target FourOfAKind
 FourOfAKind_OBJECTS = \
 "CMakeFiles/FourOfAKind.dir/main.cpp.obj" \
 "CMakeFiles/FourOfAKind.dir/Card.cpp.obj" \
-"CMakeFiles/FourOfAKind.dir/Game.cpp.obj"
+"CMakeFiles/FourOfAKind.dir/Game.cpp.obj" \
+"CMakeFiles/FourOfAKind.dir/FigureCard.cpp.obj" \
+"CMakeFiles/FourOfAKind.dir/NumericCard.cpp.obj" \
+"CMakeFiles/FourOfAKind.dir/Deck.cpp.obj"
 
 # External object files for target FourOfAKind
 FourOfAKind_EXTERNAL_OBJECTS =
@@ -127,11 +169,14 @@ FourOfAKind_EXTERNAL_OBJECTS =
 FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/main.cpp.obj
 FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/Card.cpp.obj
 FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/Game.cpp.obj
+FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/FigureCard.cpp.obj
+FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/NumericCard.cpp.obj
+FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/Deck.cpp.obj
 FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/build.make
 FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/linklibs.rsp
 FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/objects1.rsp
 FourOfAKind.exe: CMakeFiles/FourOfAKind.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rusba\CLionProjects\FourOfAKind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable FourOfAKind.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rusba\CLionProjects\FourOfAKind\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable FourOfAKind.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FourOfAKind.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
